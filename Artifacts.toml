@@ -1,0 +1,10 @@
+[[libosrmc]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "da78cc50e075608057af47f2fb40681d87b6dbd1"
+libc = "glibc"
+os = "linux"
+
+    [[libosrmc.download]]
+    sha256 = "90247bea24fa7c8913371e58fc6ff1462466966d612c9ed99c415f6d59b9639a"
+    url = "file:///home/jrklasen/dev/moviro/Yggdrasil/L/libosrmc/products/libosrmc.v6.0.0.x86_64-linux-gnu-cxx11.tar.gz"
