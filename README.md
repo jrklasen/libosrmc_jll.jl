@@ -22,8 +22,11 @@ The tarballs for `libosrmc_jll.jl` have been built from these sources:
 
 The following JLL packages are required by `libosrmc_jll.jl`:
 
-* `CompilerSupportLibraries_jll`
+* `Bzip2_jll`
+* `Expat_jll`
 * `OSRM_jll`
+* `Zlib_jll`
+* `boost_jll`
 
 ## Products
 

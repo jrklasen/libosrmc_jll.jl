@@ -2,12 +2,15 @@
 export libosrmc, osrmc_header
 
 using OSRM_jll
-using CompilerSupportLibraries_jll
+using boost_jll
+using Expat_jll
+using Zlib_jll
+using Bzip2_jll
 JLLWrappers.@generate_wrapper_header("libosrmc")
 JLLWrappers.@declare_library_product(libosrmc, "libosrmc.so.6")
 JLLWrappers.@declare_file_product(osrmc_header)
 function __init__()
-    JLLWrappers.@generate_init_header(OSRM_jll, CompilerSupportLibraries_jll)
+    JLLWrappers.@generate_init_header(OSRM_jll, boost_jll, Expat_jll, Zlib_jll, Bzip2_jll)
     JLLWrappers.@init_library_product(
         libosrmc,
         "lib/libosrmc.so",
