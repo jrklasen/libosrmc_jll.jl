@@ -12,6 +12,21 @@ JLLWrappers.@declare_library_product(libosrmc, "libosrmc.so.6")
 JLLWrappers.@declare_file_product(osrmc_header)
 function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, OSRM_jll, boost_jll, Expat_jll, Zlib_jll, Bzip2_jll)
+
+    # Ensure boost_jll library path is prioritized for system dynamic linker
+    # This is needed because libosrmc.so was compiled against Boost 1.81.0 but we use Boost 1.87.0
+    # The symlinks in boost_jll allow the binary to find Boost 1.87.0 via the 1.81.0 symlinks
+    # Put boost_jll path FIRST in LD_LIBRARY_PATH to prevent resolving to system libraries
+    boost_lib_path = dirname(boost_jll.libboost_regex_path)
+    if haskey(ENV, "LD_LIBRARY_PATH")
+        existing_paths = split(ENV["LD_LIBRARY_PATH"], ":")
+        # Remove boost_lib_path if it exists elsewhere, then prepend it
+        existing_paths = filter(p -> p != boost_lib_path && !isempty(p), existing_paths)
+        ENV["LD_LIBRARY_PATH"] = string(boost_lib_path, ":", join(existing_paths, ":"))
+    else
+        ENV["LD_LIBRARY_PATH"] = boost_lib_path
+    end
+
     JLLWrappers.@init_library_product(
         libosrmc,
         "lib/libosrmc.so",
