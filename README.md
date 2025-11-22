@@ -10,7 +10,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `libosrmc_jll.jl` have been built from these sources:
 
-* compressed archive: https://github.com/jrklasen/libosrmc/archive/refs/heads/osrm-6.tar.gz (SHA256 checksum: `4f60dc352fae87a5d83e9c3db7cfb2f4d7fb26d2e56bbb0af2629a4caf2edc7d`)
+* files in directory, relative to originating `build_tarballs.jl`: `/home/jrklasen/dev/moviro/libosrmc`
 * compressed archive: https://github.com/roblabla/MacOSX-SDKs/releases/download/13.3/MacOSX13.3.sdk.tar.xz (SHA256 checksum: `e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c`)
 
 ## Platforms
@@ -26,12 +26,10 @@ The tarballs for `libosrmc_jll.jl` have been built from these sources:
 * `Linux armv7l {call_abi=eabihf, cxxstring_abi=cxx11, libc=musl}` (`armv7l-linux-musleabihf-cxx11`)
 * `Linux i686 {cxxstring_abi=cxx11, libc=glibc}` (`i686-linux-gnu-cxx11`)
 * `Linux i686 {cxxstring_abi=cxx11, libc=musl}` (`i686-linux-musl-cxx11`)
-* `Windows i686 {cxxstring_abi=cxx11}` (`i686-w64-mingw32-cxx11`)
 * `Linux powerpc64le {cxxstring_abi=cxx11, libc=glibc}` (`powerpc64le-linux-gnu-cxx11`)
 * `Linux riscv64 {cxxstring_abi=cxx11, libc=glibc}` (`riscv64-linux-gnu-cxx11`)
 * `Linux x86_64 {cxxstring_abi=cxx11, libc=glibc}` (`x86_64-linux-gnu-cxx11`)
 * `Linux x86_64 {cxxstring_abi=cxx11, libc=musl}` (`x86_64-linux-musl-cxx11`)
-* `Windows x86_64 {cxxstring_abi=cxx11}` (`x86_64-w64-mingw32-cxx11`)
 
 ## Dependencies
 
