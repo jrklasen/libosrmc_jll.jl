@@ -10,7 +10,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `libosrmc_jll.jl` have been built from these sources:
 
-* files in directory, relative to originating `build_tarballs.jl`: `/home/jrklasen/dev/moviro/libosrmc`
+* files in directory, relative to originating `build_tarballs.jl`: `/home/jrklasen/dev/moviro/osrm/libosrmc`
 * compressed archive: https://github.com/roblabla/MacOSX-SDKs/releases/download/13.3/MacOSX13.3.sdk.tar.xz (SHA256 checksum: `e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c`)
 
 ## Platforms
