@@ -18,133 +18,133 @@ os = "windows"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.x86_64-w64-mingw32-cxx11.tar.gz"
 [[libosrmc]]
 arch = "aarch64"
-git-tree-sha1 = "da8859c2f155139aba1c52479985922bf14f3a42"
+git-tree-sha1 = "4e4294c1e1af62034180f349c8ba66e3a54a902a"
 os = "macos"
 
     [[libosrmc.download]]
-    sha256 = "0fd4f1fdb7d0ad3297656d2de43193f6194dfde4146aa9bf0c9107d9cd6fee7d"
+    sha256 = "9d3cae6079ef9baf49953365dcfab2b63a15adca4fbd4d68011c4be8dd36ae8b"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.aarch64-apple-darwin.tar.gz"
 [[libosrmc]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bbde12920ca98fcf83a0b9ea0e7635bf974d660a"
+git-tree-sha1 = "77df1a3d5a925c2d0914a3a0c4a8cb56f97c3b36"
 libc = "glibc"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "e27a61312cf0c1e7a93ac0230726711ffa2b00b27fd0c9266fad73ac3a71c188"
+    sha256 = "42c39dcc520771f22534da7a4de1b2d657da3b1e0ed1f398726134fd0727c424"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.aarch64-linux-gnu-cxx11.tar.gz"
 [[libosrmc]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "030b8ab17018558a9d99e02de55d046407397702"
+git-tree-sha1 = "4fba9d1c35bb7405058dda0c231e930353b2b9b4"
 libc = "musl"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "f4143b03a31665aef5b99826277d010083b205e6f95fdf06d911986684108dca"
+    sha256 = "e5b99a1bc5ecacfecc183859c4e20b2c8d9ed1c186b7b763f1c9405acf888db9"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.aarch64-linux-musl-cxx11.tar.gz"
 [[libosrmc]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "c5f1f757466a1d02232dc80d5e725f4c5b11efd4"
+git-tree-sha1 = "1b7e50865e6b9c9ab6121b43b02c3012170c4ba5"
 libc = "glibc"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "981ee3079aa4c13469c18aec9d230a380bc09fad3d5d11ad77216f0690d9f6aa"
+    sha256 = "eddecae26fa47161b1562ab0dc492541ef0a51a43d7da6b7cb496c2aafe36844"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[libosrmc]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "38750219382075979e6c38f38a65961acc0798ba"
+git-tree-sha1 = "2efd39b51fe52145e55b45c8ca892c2e46fb919f"
 libc = "musl"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "7f6adf93b2453df8d384747c19e2f1b8c9885e7b67bab34c015993d0e0ce3dc0"
+    sha256 = "cdb45ca836938ad6d829ecf8b7699ec5edea9a5dcb36adc177629b6f667f0a40"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[libosrmc]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "26a5a62afc34dc4fb85500e81c685e1d24307fdf"
+git-tree-sha1 = "0557d16c4845167fc7d9de8ae74767c257dca4d5"
 libc = "glibc"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "df39b7ef68e0a58508f09cf258b7f2fa9493305e4ad97e4df43494fab7280bc8"
+    sha256 = "d2cbd07a38ac0636683912d0c2479c84d6b38aaa3d839843554ec970a4710c91"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[libosrmc]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "78123fca9884b08cb9e6db529415ff8db3492fce"
+git-tree-sha1 = "5b5d7d06cb73f6e2f38f2e877db3f282283c75a6"
 libc = "musl"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "aaf872677abb82eb0a588c3c043cfe2b50bbc7d2ae50d3765a8160ff949dfeb9"
+    sha256 = "2bb32c41a04672da44d67b4e14946b2cfe6533a2303478a38520fe459ff5ea24"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[libosrmc]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "6e3836882f8109cdc6c0025573a12907fada7b95"
+git-tree-sha1 = "5b6a76f09e04bfcaa40d960c023bb7e8c480c717"
 libc = "glibc"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "2d40dbe1e0cedff25f1f19e5009b555c636dd9616843097350e879077d38dec5"
+    sha256 = "6b2028d92a2b19bd341fcf13588aecd2b0254aed5ef13cac4289de786a4d29a5"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.i686-linux-gnu-cxx11.tar.gz"
 [[libosrmc]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f208dc295d6e53f06b89694d0556b0724ab9d0a6"
+git-tree-sha1 = "e2b48c0f6f70b5116f4462b969ac75a15d14f9fc"
 libc = "musl"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "e307f463ad113c2eaa2cda279af5844ad9f074edfc965823d8f85ebdd607cedb"
+    sha256 = "a7ab5fe28300796bcef2e0af049934d5a7a0036adf3f7d540e52d39fbf02519a"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.i686-linux-musl-cxx11.tar.gz"
 [[libosrmc]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a6696d5f48ec060a8d2069d7c79bc249117389bf"
+git-tree-sha1 = "b3cd74d6d8eddf5e9067a09539872e6eba98a3cd"
 libc = "glibc"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "9dbe045bbe87c96c2b02eb7c242917d2922b2583d14278ef7f6947d7a8b648d9"
+    sha256 = "dd08b5b8006a3ba0a94292a016a0d06794f11a380f176b74af4eefe50d3bf165"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[libosrmc]]
 arch = "riscv64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "afbb065966ebb910fab22ae7786f38dca48c9a2b"
+git-tree-sha1 = "942209ff7dd54aa84ec71cb24748a35738789361"
 libc = "glibc"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "006d61b02b749b3a08feb86d90dd8d61899efa738ec9b843e745054ccd96fb81"
+    sha256 = "4fd117ed1de01ef9fdf05412841f500a1bc4621275dcef9f92186c0f1deb0ca0"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.riscv64-linux-gnu-cxx11.tar.gz"
 [[libosrmc]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "5ae245ce114912a8a87215b92d9f4b016212aed2"
+git-tree-sha1 = "df58c96cbc7e79fa9ccd947df551a4e95d23f2c5"
 libc = "glibc"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "d3fb3b459e6575c34bf6ec20bde0ab9174eaefeedf8a7fe2fd86fa56c276061e"
+    sha256 = "781c1b622b1d603ba396e98a3cea56c7a0e3de922398ee7a654b6b67734bb121"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[libosrmc]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "afc3ca30a2ffb013990fae1c8e6b841c3436430d"
+git-tree-sha1 = "f444e4cbd3558735eb14e301b74bc2846a0c083e"
 libc = "musl"
 os = "linux"
 
     [[libosrmc.download]]
-    sha256 = "47bb80f2648a168446cfbcedc1c6e19d401ee05a5d3f39effa387b57405e7630"
+    sha256 = "866d0a417e228dd5216db33595ba7b165332d241c49099c0a6f889f261e2e951"
     url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.x86_64-linux-musl-cxx11.tar.gz"
