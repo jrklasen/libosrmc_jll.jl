@@ -11,7 +11,6 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 The tarballs for `libosrmc_jll.jl` have been built from these sources:
 
 * files in directory, relative to originating `build_tarballs.jl`: `/home/jrklasen/dev/moviro/osrm/libosrmc`
-* compressed archive: https://github.com/roblabla/MacOSX-SDKs/releases/download/13.3/MacOSX13.3.sdk.tar.xz (SHA256 checksum: `e5d0f958a079106234b3a840f93653308a76d3dcea02d3aa8f2841f8df33050c`)
 
 ## Platforms
 
@@ -29,7 +28,6 @@ The tarballs for `libosrmc_jll.jl` have been built from these sources:
 * `Windows i686 {cxxstring_abi=cxx11}` (`i686-w64-mingw32-cxx11`)
 * `Linux powerpc64le {cxxstring_abi=cxx11, libc=glibc}` (`powerpc64le-linux-gnu-cxx11`)
 * `Linux riscv64 {cxxstring_abi=cxx11, libc=glibc}` (`riscv64-linux-gnu-cxx11`)
-* `macOS x86_64` (`x86_64-apple-darwin`)
 * `Linux x86_64 {cxxstring_abi=cxx11, libc=glibc}` (`x86_64-linux-gnu-cxx11`)
 * `Linux x86_64 {cxxstring_abi=cxx11, libc=musl}` (`x86_64-linux-musl-cxx11`)
 * `Windows x86_64 {cxxstring_abi=cxx11}` (`x86_64-w64-mingw32-cxx11`)
