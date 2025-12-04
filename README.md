@@ -10,7 +10,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `libosrmc_jll.jl` have been built from these sources:
 
-* files in directory, relative to originating `build_tarballs.jl`: `/home/jrklasen/dev/moviro/osrm/libosrmc`
+* git repository: https://github.com/moviro-hub/libosrmc.git (revision: `8ba3109261c1d30b06b1ef7f9741eb04fcc3aad7`)
 
 ## Platforms
 
