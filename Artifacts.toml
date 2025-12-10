@@ -5,15 +5,9 @@ os = "windows"
 
     [[libosrmc.download]]
     sha256 = "ef3864b2221fc90229dfb47c3f8a4d72b5de1d320d53f518bd891ecb626087d6"
-    url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.x86_64-w64-mingw32.tar.gz"
-[[libosrmc]]
-arch = "x86_64"
-git-tree-sha1 = "a5c0fa788f3e9a360b446da8644023e8b52788c7"
-os = "macos"
-
+    url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.x86_64-w64-mingw32-cxx11.tar.gz"
     [[libosrmc.download]]
     sha256 = "307ba7e01a1ccefa996a080012b4b8f147d3ef28ecd196cf34e8f0d8ec6562c7"
-    url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.x86_64-apple-darwin.tar.gz"
 [[libosrmc]]
 arch = "x86_64"
 git-tree-sha1 = "f21cc23a333f5a80890fbc6e8edd60af073e810f"
@@ -22,7 +16,7 @@ os = "linux"
 
     [[libosrmc.download]]
     sha256 = "f96226e2b4f2f16d0e3fb051c0be6d2fbbc3bf907bb2eb17d44b2aa21eeee12c"
-    url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.x86_64-linux-gnu.tar.gz"
+    url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[libosrmc]]
 arch = "aarch64"
 git-tree-sha1 = "cec02f6f1656d43cebd3e46373b75bb1df225acf"
@@ -31,7 +25,7 @@ os_version = "20.0.0"
 
     [[libosrmc.download]]
     sha256 = "8de5bc21fae3a81c00b307dae188baea9ab9d4124bcd850bbf2ef1c8cf39a9a1"
-    url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.aarch64-apple-darwin20.tar.gz"
+    url = "https://github.com/jrklasen/libosrmc_jll.jl/releases/download/libosrmc-v6.0.0+0/libosrmc.v6.0.0.aarch64-apple-darwin.tar.gz"
 [[libosrmc]]
 arch = "aarch64"
 git-tree-sha1 = "b0e510f53851dd8e365ce086365f55bfb1fd0901"
